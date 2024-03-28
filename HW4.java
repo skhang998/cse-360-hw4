@@ -1,10 +1,18 @@
+/*
+ * Name: Sukhmanjot Khangura
+ * ID: 1221691458
+ * Class: CSE 360 Spring 2024
+ * Time: Th 1:30pm
+ * Instructor: Lynn Robert Carter
+ * Assignment: Homework 4
+ */
+
 package hw4;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.layout.StackPane;
-
 
 public class HW4 extends Application
 {
@@ -18,8 +26,8 @@ public class HW4 extends Application
 	
 	public void start(Stage stage)
 	{
-//		HomePage home = new HomePage();
-		ReceptionistView home = new ReceptionistView();
+		//Start at home page and launch application
+		HomePage home = new HomePage();
 		StackPane root = new StackPane();
 		root.getChildren().add(home);
 		Scene scene = new Scene(root, WIDTH, HEIGHT);
